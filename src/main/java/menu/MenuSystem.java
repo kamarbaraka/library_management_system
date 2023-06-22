@@ -16,7 +16,7 @@ public class MenuSystem {
         var userInput = new Scanner(System.in);
 
         while (true){
-            System.out.println("welcome, you can search a book by (title/ author)");
+            System.out.println("welcome, you can search a book by (title/ author or exit)");
             var result = userInput.next();
             switch (result){
                 case "title" -> {System.out.println("enter the title");
@@ -27,6 +27,7 @@ public class MenuSystem {
                     var author = userInput.next();
                     System.out.println(menu.searchByAuthor(author));
                 }
+                case "exit" -> System.exit(0);
                 default -> System.out.println("wrong input");
             }
         }
