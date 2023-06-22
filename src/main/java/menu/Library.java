@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * a class to simulate a library that holds book objects
+ * @author sandra makena
+ * @since 22/06/2023*/
+
 class Library{
 
     private ArrayList<Book> bookCollection;

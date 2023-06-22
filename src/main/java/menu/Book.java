@@ -1,5 +1,10 @@
 package menu;
 
+/**
+ * a test class to simulate a book
+ * @author kamar baraka
+ * @since 22/06/2023*/
+
 public class Book {
 
     private String title, author;
