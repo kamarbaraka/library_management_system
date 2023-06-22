@@ -6,7 +6,8 @@ import java.util.Scanner;
 /**
  * a class to implement the search operation
  * @author kamar baraka
- * @since 22/06/2023*/
+ * @since 22/06/2023
+ * */
 
 public class MenuSystem {
 
