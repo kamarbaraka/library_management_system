@@ -1,6 +1,5 @@
 package menu;
 
-import java.beans.PropertyEditorSupport;
 import java.util.Scanner;
 
 /**

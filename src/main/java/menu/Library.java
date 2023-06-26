@@ -1,8 +1,6 @@
 package menu;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * a class to simulate a library that holds book objects
